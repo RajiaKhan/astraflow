@@ -3,8 +3,8 @@ import React, { useState } from "react";
 export default function Index() {
   return (
     <>
-      <div className="container mx-auto lg:px-3 xl:px-4 2xl:px-20 px-5 ">
-        <div className="flex gap-12 mt-6 px-12">
+      <div className="container mx-auto lg:px-3 xl:px-5 2xl:px-20 px-5 ">
+        <div className="flex gap-12 mt-6 lg:px-5 xl:px-10 2xl:px-12 px-5">
           <Image className=" " src="/image 2 (1).svg" width={167} height={32} />
           <h1 className="text-base text-gray-800 font-normal mt-3 cursor-pointer">
             Our Work
@@ -32,13 +32,13 @@ export default function Index() {
             </button>
           </div>
         </div>
-        <div className="flex mt-16 px-12">
+        <div className="flex mt-16  lg:px-5 xl:px-10 2xl:px-12 px-5">
           <div className="w-11/12 ">
-            <h1 className="text-6xl font-semibold w-11/12">
+            <h1 className="text-6xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-semibold  w-full lg:w-11/12 xl:w-11/12 2xl:w-11/12">
               We make your <span className="text">LOGO</span> and{" "}
               <span className="text1">BRAND</span> stand out from the crowd.
             </h1>
-            <h1 className="text-gray-800 text-base mt-8 w-6/12">
+            <h1 className="text-gray-800 text-base mt-8 lg:w-8/12 xl:w-6/12 2xl:w-6/12 w-full">
               We create compelling brands for startups, companies and
               organizations. With German quality.{" "}
             </h1>
@@ -57,7 +57,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-50 mt-16 px-12  pb-12">
+        <div className="bg-gray-50 mt-16 lg:px-5 xl:px-10 2xl:px-12 px-5 pb-12">
           <h1 className=" text2 text-4xl font-semibold pt-12">Benefits</h1>
           <h1 className="text-4xl font-semibold text-gray-800">
             We see a problem & we fix it.
@@ -103,7 +103,7 @@ export default function Index() {
               <div className="flex justify-center items-center">
                 <Image
                   className="  "
-                  src="/Group 53.png"
+                  src="/Group 47.png"
                   width={92}
                   height={92}
                 />
@@ -123,8 +123,8 @@ export default function Index() {
             <div className="w-11/12 bg-white rounded-2xl py-12 px-3">
               <div className="flex justify-center items-center">
                 <Image
-                  className="  "
-                  src="/Group 53.png"
+                  className=""
+                  src="/Group 48 (5).png"
                   width={92}
                   height={92}
                 />
@@ -189,7 +189,7 @@ export default function Index() {
               <div className="flex justify-center items-center">
                 <Image
                   className="  "
-                  src="/Group 53.png"
+                  src="/Group 57.png"
                   width={92}
                   height={92}
                 />
@@ -209,7 +209,7 @@ export default function Index() {
               <div className="flex justify-center items-center">
                 <Image
                   className="  "
-                  src="/Group 53.png"
+                  src="/Group 55.png"
                   width={92}
                   height={92}
                 />
@@ -251,7 +251,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="bg-white px-12 py-12">
+        <div className="bg-white lg:px-5 xl:px-10 2xl:px-12 px-5 py-12">
           <div className="flex gap-8">
             <div className="w-11/12">
               <h1 className="text-4xl text-gray-800 font-semibold w-5/12">
@@ -309,8 +309,8 @@ export default function Index() {
               We offer 3 different type of packages.
             </h1>
           </div>
-          <div className="flex gap-8 px-12 mt-12">
-            <div className="w-11/12 bg-white px-12 py-12 rounded-2xl">
+          <div className="flex gap-8 lg:px-5 xl:px-10 2xl:px-12 px-5 mt-12">
+            <div className="w-11/12 bg-white px-12 py-12 rounded-2xl relative shadow">
               <h1 className="font-semibold text-2xl text-gray-800">Bronze</h1>
               <h1 className="font-semibold text-4xl text-gray-800 mt-3">
                 $495
@@ -343,11 +343,19 @@ export default function Index() {
               <h1 className="text-gray-800 font-normal text-base mt-2">
                 Full brand guidelines + Mockups
               </h1>
-              <h1 className="text-gray-800 font-semibold text-base mt-6 px-6">
-                1-2 Weeks Delivery
-              </h1>
+              <div className="absolute bottom-12">
+                <h1 className="text-gray-800 font-semibold text-base mt-6 px-6">
+                  1-2 Weeks Delivery
+                </h1>
+              </div>
             </div>
-            <div className="w-11/12 bg px-12 py-12 rounded-2xl">
+            <div className="w-11/12 bg px-12 py-12 rounded-2xl relative">
+              <div className="absolute -right-6 -top-5">
+                <Image src="/Group 88.svg" width={112.53} height={72.46} />
+              </div>
+              <div className="absolute right-12 ">
+                <Image src="/Group 30.png" width={47} height={47.61} />
+              </div>
               <h1 className="font-semibold text-2xl text-white">Silver</h1>
               <h1 className="font-semibold text-4xl text3 mt-3">$895</h1>
               <div className="mt-6 -mb-1.5">
@@ -378,11 +386,13 @@ export default function Index() {
               <h1 className="text-white font-normal text-base mt-2">
                 Full brand guidelines + Mockups
               </h1>
-              <h1 className="text-white font-semibold text-base mt-6 px-6">
-                1-2 Weeks Delivery
-              </h1>
+              <div className="absolute bottom-12">
+                <h1 className="text-white font-semibold text-base  px-6">
+                  1-2 Weeks Delivery
+                </h1>
+              </div>
             </div>
-            <div className="w-11/12 bg-white px-12 py-12 rounded-2xl">
+            <div className="w-11/12 bg-white px-12 py-12 rounded-2xl shadow ">
               <h1 className="font-semibold text-2xl text-gray-800">Gold</h1>
               <h1 className="font-semibold text-4xl text-gray-800 mt-3">
                 $1295
@@ -418,6 +428,7 @@ export default function Index() {
               <h1 className="text-gray-800 font-normal text-base mt-2">
                 Logo guideline
               </h1>
+
               <h1 className="text-gray-800 font-semibold text-base mt-6 px-6">
                 1-2 Weeks Delivery
               </h1>
@@ -429,7 +440,7 @@ export default function Index() {
           <h1 className="text-4xl text-center font-semibold text-gray-800 mt-16">
             Frequently Asked Questions
           </h1>
-          <div className="flex gap-8 mt-8 px-12">
+          <div className="flex gap-8 mt-8 lg:px-5 xl:px-10 2xl:px-12 px-5">
             <div className="w-11/12 bg-white px-8 py-8 rounded-2xl shadow">
               <h1 className="text-gray-800 text-base font-semibold">
                 Why are your logo packages so expensive?
@@ -441,7 +452,7 @@ export default function Index() {
               </h1>
             </div>
           </div>
-          <div className="flex gap-8 mt-8 px-12">
+          <div className="flex gap-8 mt-8 lg:px-5 xl:px-10 2xl:px-12 px-5">
             <div className="w-11/12 bg-white px-8 py-8 rounded-2xl shadow">
               <h1 className="text-gray-800 text-base font-semibold">
                 How long does it takes to complete a logo?
@@ -453,7 +464,7 @@ export default function Index() {
               </h1>
             </div>
           </div>
-          <div className="flex gap-8 mt-8 px-12">
+          <div className="flex gap-8 mt-8 lg:px-5 xl:px-10 2xl:px-12 px-5">
             <div className="w-11/12 bg-white px-8 py-8 rounded-2xl shadow">
               <h1 className="text-gray-800 text-base font-semibold">
                 Do you offer other services?
@@ -465,7 +476,7 @@ export default function Index() {
               </h1>
             </div>
           </div>
-          <div className="px-44">
+          <div className=" lg:px-44 xl:px-32 2xl:px-44 px-5 px-20">
             <div className="bg mt-12 py-8 rounded-2xl px-8 ">
               <div className="flex justify-end items-end ">
                 <Image src="/Group 39.png" width={47} height={47.61} />
@@ -480,14 +491,14 @@ export default function Index() {
                   </h1>
                 </div>
                 <div className="ml-auto">
-                  <button className="w-full py-5 px-20 bg-pink text-gray-800 mt-5 rounded-2xl text-lg font-semibold">
+                  <button className="w-full py-5 w-64 bg-pink text-gray-800 mt-5 rounded-lg text-lg font-semibold">
                     Get Started
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-between px-12 mt-20">
+          <div className="flex justify-between items-between lg:px-5 xl:px-10 2xl:px-12 px-5 mt-20">
             <div className="">
               <Image src="/image 10.svg" width={181} height={44} />
             </div>
@@ -515,6 +526,17 @@ export default function Index() {
                 <h1 className="text-base font-semibold mt-4 text4">
                   SEO (COMING SOON!)
                 </h1>{" "}
+              </div>
+            </div>
+          </div>
+          <div className="flex px-12 mt-12">
+            <div className="">
+              <h1 className="text-base text4">© Copyright</h1>
+            </div>
+            <div className="ml-auto">
+              <div className="flex gap-8">
+                <h1 className="text-base text4">Cookie Policy</h1>
+                <h1 className="text-base text4">Privacy Policy</h1>
               </div>
             </div>
           </div>
