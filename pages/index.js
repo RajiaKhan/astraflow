@@ -4,7 +4,7 @@ export default function Home() {
   const [sideBar, setsideBar] = useState();
   return (
     <>
-      <div className="container mx-auto lg:px-3 xl:px-5 2xl:px-20 md:px-5 sm:px-5 px-0 ">
+      <div className="container mx-auto lg:px-3 xl:px-5 2xl:px-20 md:px-5 sm:px-5 px-0  overflow-x-hidden">
         <div className="block lg:hidden xl:hidden 2xl:hidden ">
           <div className="relative px-4 py-5 flex justify-between w-full sm:block md:block">
             {sideBar ? (
