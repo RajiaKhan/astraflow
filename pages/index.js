@@ -452,7 +452,7 @@ export default function Home() {
         </div>
         <div className="bg-gray-50 py-12">
           <div className="flex justify-center items-center">
-            <h1 className="lg:text-4xl xl:text-4xl 2xl:text-4xl md:text-4xl sm:text-4xl text-2xl text-gray-800 font-semibold text-center lg:px-12 xl:px-12 2xl:px-12 px-0 lg:w-5/12 xl:w-4/12 2xl:w-5/12 md:w-full w-full">
+            <h1 className="lg:text-4xl xl:text-4xl 2xl:text-4xl md:text-4xl sm:text-4xl text-2xl text-gray-800 font-semibold text-center lg:px-2 xl:px-5 2xl:px-12 px-0 lg:w-6/12 xl:w-5/12 2xl:w-5/12 md:w-full w-full">
               Choose the right package that works for your business
             </h1>
           </div>
